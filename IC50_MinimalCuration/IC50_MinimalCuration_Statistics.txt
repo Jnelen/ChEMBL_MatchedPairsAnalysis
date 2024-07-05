@@ -1,0 +1,3 @@
+IC50_MinimalCuration Statistics:
+MAE=0.33, Fraction > 0.3: 0.54, fraction > 1.0: 0.12
+1338 assay pairs. 372683 points, 1964 unique assay IDs.

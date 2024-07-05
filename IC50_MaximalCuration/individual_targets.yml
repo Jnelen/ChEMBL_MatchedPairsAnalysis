@@ -1,0 +1,400 @@
+metadata:
+    version: 1
+    creator: 
+        name: Jochem Nelen
+        email: jnelen@ucam.edu
+    Original implementation by Greg Landrum (glandrum@ethz.ch)      
+    summary: Collection of IC50_MaximalCuration datasets with pchembl_values for bioactivity prediction.
+    
+sources:
+    CHEMBL3714130-1:
+        description: "Target CHEMBL3714130: G-protein coupled receptor 6"
+        args:
+            filename: 'IC50_MaximalCuration/Datasets/target_CHEMBL3714130-1_IC50_MaximalCuration.csv.gz'
+            smilesColumn: canonical_smiles
+        metadata:
+            url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL3714130/
+            source: ChEMBL_32
+            target_organism: Homo sapiens
+            assays_included: CHEMBL3721175,CHEMBL3720810,CHEMBL3721176,CHEMBL3720811
+            num_points: 116
+            activity_type: IC50_MaximalCuration
+            min pchembl_value: 4.00
+            max pchembl_value: 7.00
+            median pchembl_value: 6.38
+            driver: intake_rdkit.smiles.SmilesSource
+            
+    CHEMBL4302-1:
+        description: "Target CHEMBL4302: P-glycoprotein 1"
+        args:
+            filename: 'IC50_MaximalCuration/Datasets/target_CHEMBL4302-1_IC50_MaximalCuration.csv.gz'
+            smilesColumn: canonical_smiles
+        metadata:
+            url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL4302/
+            source: ChEMBL_32
+            target_organism: Homo sapiens
+            assays_included: CHEMBL939119,CHEMBL974470
+            num_points: 52
+            activity_type: IC50_MaximalCuration
+            min pchembl_value: 4.87
+            max pchembl_value: 6.84
+            median pchembl_value: 5.62
+            driver: intake_rdkit.smiles.SmilesSource
+            
+    CHEMBL3145-1:
+        description: "Target CHEMBL3145: PI3-kinase p110-beta subunit"
+        args:
+            filename: 'IC50_MaximalCuration/Datasets/target_CHEMBL3145-1_IC50_MaximalCuration.csv.gz'
+            smilesColumn: canonical_smiles
+        metadata:
+            url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL3145/
+            source: ChEMBL_32
+            target_organism: Homo sapiens
+            assays_included: CHEMBL3411216,CHEMBL3705076
+            num_points: 41
+            activity_type: IC50_MaximalCuration
+            min pchembl_value: 7.72
+            max pchembl_value: 8.70
+            median pchembl_value: 8.10
+            driver: intake_rdkit.smiles.SmilesSource
+            
+    CHEMBL238-1:
+        description: "Target CHEMBL238: Dopamine transporter"
+        args:
+            filename: 'IC50_MaximalCuration/Datasets/target_CHEMBL238-1_IC50_MaximalCuration.csv.gz'
+            smilesColumn: canonical_smiles
+        metadata:
+            url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL238/
+            source: ChEMBL_32
+            target_organism: Homo sapiens
+            assays_included: CHEMBL1064404,CHEMBL1041761
+            num_points: 30
+            activity_type: IC50_MaximalCuration
+            min pchembl_value: 5.22
+            max pchembl_value: 7.51
+            median pchembl_value: 6.12
+            driver: intake_rdkit.smiles.SmilesSource
+            
+    CHEMBL4235-1:
+        description: "Target CHEMBL4235: 11-beta-hydroxysteroid dehydrogenase 1"
+        args:
+            filename: 'IC50_MaximalCuration/Datasets/target_CHEMBL4235-1_IC50_MaximalCuration.csv.gz'
+            smilesColumn: canonical_smiles
+        metadata:
+            url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL4235/
+            source: ChEMBL_32
+            target_organism: Homo sapiens
+            assays_included: CHEMBL3705121,CHEMBL3705551,CHEMBL3705158
+            num_points: 45
+            activity_type: IC50_MaximalCuration
+            min pchembl_value: 7.27
+            max pchembl_value: 9.29
+            median pchembl_value: 8.84
+            driver: intake_rdkit.smiles.SmilesSource
+            
+    CHEMBL4552-1:
+        description: "Target CHEMBL4552: Peripheral-type benzodiazepine receptor"
+        args:
+            filename: 'IC50_MaximalCuration/Datasets/target_CHEMBL4552-1_IC50_MaximalCuration.csv.gz'
+            smilesColumn: canonical_smiles
+        metadata:
+            url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL4552/
+            source: ChEMBL_32
+            target_organism: Rattus norvegicus
+            assays_included: CHEMBL651688,CHEMBL650286
+            num_points: 30
+            activity_type: IC50_MaximalCuration
+            min pchembl_value: 4.64
+            max pchembl_value: 8.12
+            median pchembl_value: 7.56
+            driver: intake_rdkit.smiles.SmilesSource
+            
+    CHEMBL2425-1:
+        description: "Target CHEMBL2425: Dihydrofolate reductase"
+        args:
+            filename: 'IC50_MaximalCuration/Datasets/target_CHEMBL2425-1_IC50_MaximalCuration.csv.gz'
+            smilesColumn: canonical_smiles
+        metadata:
+            url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2425/
+            source: ChEMBL_32
+            target_organism: Toxoplasma gondii
+            assays_included: CHEMBL664916,CHEMBL665590
+            num_points: 28
+            activity_type: IC50_MaximalCuration
+            min pchembl_value: 5.56
+            max pchembl_value: 8.57
+            median pchembl_value: 7.77
+            driver: intake_rdkit.smiles.SmilesSource
+            
+    CHEMBL1926-1:
+        description: "Target CHEMBL1926: Dihydrofolate reductase"
+        args:
+            filename: 'IC50_MaximalCuration/Datasets/target_CHEMBL1926-1_IC50_MaximalCuration.csv.gz'
+            smilesColumn: canonical_smiles
+        metadata:
+            url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL1926/
+            source: ChEMBL_32
+            target_organism: Pneumocystis carinii
+            assays_included: CHEMBL664175,CHEMBL664188
+            num_points: 26
+            activity_type: IC50_MaximalCuration
+            min pchembl_value: 5.51
+            max pchembl_value: 7.96
+            median pchembl_value: 7.06
+            driver: intake_rdkit.smiles.SmilesSource
+            
+    CHEMBL222-1:
+        description: "Target CHEMBL222: Norepinephrine transporter"
+        args:
+            filename: 'IC50_MaximalCuration/Datasets/target_CHEMBL222-1_IC50_MaximalCuration.csv.gz'
+            smilesColumn: canonical_smiles
+        metadata:
+            url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL222/
+            source: ChEMBL_32
+            target_organism: Homo sapiens
+            assays_included: CHEMBL995197,CHEMBL998745,CHEMBL1041763,CHEMBL1064405
+            num_points: 46
+            activity_type: IC50_MaximalCuration
+            min pchembl_value: 5.14
+            max pchembl_value: 8.52
+            median pchembl_value: 6.94
+            driver: intake_rdkit.smiles.SmilesSource
+            
+    CHEMBL228-1:
+        description: "Target CHEMBL228: Serotonin transporter"
+        args:
+            filename: 'IC50_MaximalCuration/Datasets/target_CHEMBL228-1_IC50_MaximalCuration.csv.gz'
+            smilesColumn: canonical_smiles
+        metadata:
+            url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL228/
+            source: ChEMBL_32
+            target_organism: Homo sapiens
+            assays_included: CHEMBL998746,CHEMBL995198
+            num_points: 22
+            activity_type: IC50_MaximalCuration
+            min pchembl_value: 5.22
+            max pchembl_value: 6.52
+            median pchembl_value: 5.78
+            driver: intake_rdkit.smiles.SmilesSource
+            
+    CHEMBL3942-1:
+        description: "Target CHEMBL3942: Neurokinin 1 receptor"
+        args:
+            filename: 'IC50_MaximalCuration/Datasets/target_CHEMBL3942-1_IC50_MaximalCuration.csv.gz'
+            smilesColumn: canonical_smiles
+        metadata:
+            url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL3942/
+            source: ChEMBL_32
+            target_organism: Cavia porcellus
+            assays_included: CHEMBL812229,CHEMBL751716
+            num_points: 22
+            activity_type: IC50_MaximalCuration
+            min pchembl_value: 6.21
+            max pchembl_value: 8.21
+            median pchembl_value: 7.90
+            driver: intake_rdkit.smiles.SmilesSource
+            
+    CHEMBL6020-1:
+        description: "Target CHEMBL6020: Bile salt export pump"
+        args:
+            filename: 'IC50_MaximalCuration/Datasets/target_CHEMBL6020-1_IC50_MaximalCuration.csv.gz'
+            smilesColumn: canonical_smiles
+        metadata:
+            url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL6020/
+            source: ChEMBL_32
+            target_organism: Homo sapiens
+            assays_included: CHEMBL4011669,CHEMBL4011663
+            num_points: 20
+            activity_type: IC50_MaximalCuration
+            min pchembl_value: 4.39
+            max pchembl_value: 6.40
+            median pchembl_value: 4.81
+            driver: intake_rdkit.smiles.SmilesSource
+            
+    CHEMBL3486-1:
+        description: "Target CHEMBL3486: Dihydroorotate dehydrogenase"
+        args:
+            filename: 'IC50_MaximalCuration/Datasets/target_CHEMBL3486-1_IC50_MaximalCuration.csv.gz'
+            smilesColumn: canonical_smiles
+        metadata:
+            url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL3486/
+            source: ChEMBL_32
+            target_organism: Plasmodium falciparum
+            assays_included: CHEMBL2014776,CHEMBL3706206
+            num_points: 22
+            activity_type: IC50_MaximalCuration
+            min pchembl_value: 6.15
+            max pchembl_value: 7.66
+            median pchembl_value: 7.23
+            driver: intake_rdkit.smiles.SmilesSource
+            
+    CHEMBL3045-1:
+        description: "Target CHEMBL3045: Protein kinase C beta"
+        args:
+            filename: 'IC50_MaximalCuration/Datasets/target_CHEMBL3045-1_IC50_MaximalCuration.csv.gz'
+            smilesColumn: canonical_smiles
+        metadata:
+            url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL3045/
+            source: ChEMBL_32
+            target_organism: Homo sapiens
+            assays_included: CHEMBL828576,CHEMBL3063098
+            num_points: 18
+            activity_type: IC50_MaximalCuration
+            min pchembl_value: 5.66
+            max pchembl_value: 8.70
+            median pchembl_value: 7.38
+            driver: intake_rdkit.smiles.SmilesSource
+            
+    CHEMBL2039-1:
+        description: "Target CHEMBL2039: Monoamine oxidase B"
+        args:
+            filename: 'IC50_MaximalCuration/Datasets/target_CHEMBL2039-1_IC50_MaximalCuration.csv.gz'
+            smilesColumn: canonical_smiles
+        metadata:
+            url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2039/
+            source: ChEMBL_32
+            target_organism: Homo sapiens
+            assays_included: CHEMBL1251644,CHEMBL1246375
+            num_points: 18
+            activity_type: IC50_MaximalCuration
+            min pchembl_value: 6.69
+            max pchembl_value: 8.05
+            median pchembl_value: 7.46
+            driver: intake_rdkit.smiles.SmilesSource
+            
+    CHEMBL284-1:
+        description: "Target CHEMBL284: Dipeptidyl peptidase IV"
+        args:
+            filename: 'IC50_MaximalCuration/Datasets/target_CHEMBL284-1_IC50_MaximalCuration.csv.gz'
+            smilesColumn: canonical_smiles
+        metadata:
+            url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL284/
+            source: ChEMBL_32
+            target_organism: Homo sapiens
+            assays_included: CHEMBL4431128,CHEMBL3705186
+            num_points: 16
+            activity_type: IC50_MaximalCuration
+            min pchembl_value: 7.08
+            max pchembl_value: 9.42
+            median pchembl_value: 7.88
+            driver: intake_rdkit.smiles.SmilesSource
+            
+    CHEMBL3199-1:
+        description: "Target CHEMBL3199: Acetylcholinesterase"
+        args:
+            filename: 'IC50_MaximalCuration/Datasets/target_CHEMBL3199-1_IC50_MaximalCuration.csv.gz'
+            smilesColumn: canonical_smiles
+        metadata:
+            url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL3199/
+            source: ChEMBL_32
+            target_organism: Rattus norvegicus
+            assays_included: CHEMBL1015165,CHEMBL3069985
+            num_points: 16
+            activity_type: IC50_MaximalCuration
+            min pchembl_value: 6.35
+            max pchembl_value: 7.92
+            median pchembl_value: 6.80
+            driver: intake_rdkit.smiles.SmilesSource
+            
+    CHEMBL3471-1:
+        description: "Target CHEMBL3471: Human immunodeficiency virus type 1 integrase"
+        args:
+            filename: 'IC50_MaximalCuration/Datasets/target_CHEMBL3471-1_IC50_MaximalCuration.csv.gz'
+            smilesColumn: canonical_smiles
+        metadata:
+            url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL3471/
+            source: ChEMBL_32
+            target_organism: Human immunodeficiency virus 1
+            assays_included: CHEMBL1111323,CHEMBL890063
+            num_points: 16
+            activity_type: IC50_MaximalCuration
+            min pchembl_value: 4.30
+            max pchembl_value: 8.00
+            median pchembl_value: 7.10
+            driver: intake_rdkit.smiles.SmilesSource
+            
+    CHEMBL3572-1:
+        description: "Target CHEMBL3572: Cholesteryl ester transfer protein"
+        args:
+            filename: 'IC50_MaximalCuration/Datasets/target_CHEMBL3572-1_IC50_MaximalCuration.csv.gz'
+            smilesColumn: canonical_smiles
+        metadata:
+            url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL3572/
+            source: ChEMBL_32
+            target_organism: Homo sapiens
+            assays_included: CHEMBL3705865,CHEMBL4843592
+            num_points: 14
+            activity_type: IC50_MaximalCuration
+            min pchembl_value: 5.94
+            max pchembl_value: 7.66
+            median pchembl_value: 6.82
+            driver: intake_rdkit.smiles.SmilesSource
+            
+    CHEMBL240-1:
+        description: "Target CHEMBL240: HERG"
+        args:
+            filename: 'IC50_MaximalCuration/Datasets/target_CHEMBL240-1_IC50_MaximalCuration.csv.gz'
+            smilesColumn: canonical_smiles
+        metadata:
+            url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL240/
+            source: ChEMBL_32
+            target_organism: Homo sapiens
+            assays_included: CHEMBL954102,CHEMBL766816
+            num_points: 12
+            activity_type: IC50_MaximalCuration
+            min pchembl_value: 6.70
+            max pchembl_value: 8.52
+            median pchembl_value: 7.38
+            driver: intake_rdkit.smiles.SmilesSource
+            
+    CHEMBL2842-1:
+        description: "Target CHEMBL2842: Serine/threonine-protein kinase mTOR"
+        args:
+            filename: 'IC50_MaximalCuration/Datasets/target_CHEMBL2842-1_IC50_MaximalCuration.csv.gz'
+            smilesColumn: canonical_smiles
+        metadata:
+            url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2842/
+            source: ChEMBL_32
+            target_organism: Homo sapiens
+            assays_included: CHEMBL1104613,CHEMBL1058638
+            num_points: 12
+            activity_type: IC50_MaximalCuration
+            min pchembl_value: 9.21
+            max pchembl_value: 9.52
+            median pchembl_value: 9.32
+            driver: intake_rdkit.smiles.SmilesSource
+            
+    CHEMBL3864-1:
+        description: "Target CHEMBL3864: Protein-tyrosine phosphatase 2C"
+        args:
+            filename: 'IC50_MaximalCuration/Datasets/target_CHEMBL3864-1_IC50_MaximalCuration.csv.gz'
+            smilesColumn: canonical_smiles
+        metadata:
+            url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL3864/
+            source: ChEMBL_32
+            target_organism: Homo sapiens
+            assays_included: CHEMBL996083,CHEMBL3705756
+            num_points: 12
+            activity_type: IC50_MaximalCuration
+            min pchembl_value: 4.65
+            max pchembl_value: 6.10
+            median pchembl_value: 5.06
+            driver: intake_rdkit.smiles.SmilesSource
+            
+    CHEMBL2148-1:
+        description: "Target CHEMBL2148: Tyrosine-protein kinase JAK3"
+        args:
+            filename: 'IC50_MaximalCuration/Datasets/target_CHEMBL2148-1_IC50_MaximalCuration.csv.gz'
+            smilesColumn: canonical_smiles
+        metadata:
+            url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2148/
+            source: ChEMBL_32
+            target_organism: Homo sapiens
+            assays_included: CHEMBL3705847,CHEMBL3374009
+            num_points: 12
+            activity_type: IC50_MaximalCuration
+            min pchembl_value: 7.43
+            max pchembl_value: 10.81
+            median pchembl_value: 9.16
+            driver: intake_rdkit.smiles.SmilesSource
+            

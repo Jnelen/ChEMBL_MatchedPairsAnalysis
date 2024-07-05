@@ -1,0 +1,3 @@
+Ki_MinimalCuration_Pruned Statistics:
+MAE=0.35, Fraction > 0.3: 0.55, fraction > 1.0: 0.15
+219 assay pairs. 32363 points, 303 unique assay IDs.

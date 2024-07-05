@@ -1,0 +1,162 @@
+metadata:
+    version: 1
+    creator: 
+        name: Jochem Nelen
+        email: jnelen@ucam.edu
+    Original implementation by Greg Landrum (glandrum@ethz.ch)      
+    summary: Collection of Ki_MaximalCuration_RefPruned datasets with pchembl_values for bioactivity prediction.
+    
+sources:
+    CHEMBL253-1:
+        description: "Target CHEMBL253: Cannabinoid CB2 receptor"
+        args:
+            filename: 'Ki_MaximalCuration_RefPruned/Datasets/target_CHEMBL253-1_Ki_MaximalCuration_RefPruned.csv.gz'
+            smilesColumn: canonical_smiles
+        metadata:
+            url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL253/
+            source: ChEMBL_32
+            target_organism: Homo sapiens
+            assays_included: CHEMBL1837632,CHEMBL931641
+            num_points: 34
+            activity_type: Ki_MaximalCuration_RefPruned
+            min pchembl_value: 6.62
+            max pchembl_value: 9.92
+            median pchembl_value: 8.52
+            driver: intake_rdkit.smiles.SmilesSource
+            
+    CHEMBL5282-1:
+        description: "Target CHEMBL5282: Cytochrome P450 2A6"
+        args:
+            filename: 'Ki_MaximalCuration_RefPruned/Datasets/target_CHEMBL5282-1_Ki_MaximalCuration_RefPruned.csv.gz'
+            smilesColumn: canonical_smiles
+        metadata:
+            url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL5282/
+            source: ChEMBL_32
+            target_organism: Homo sapiens
+            assays_included: CHEMBL910617,CHEMBL839581
+            num_points: 32
+            activity_type: Ki_MaximalCuration_RefPruned
+            min pchembl_value: 4.17
+            max pchembl_value: 7.70
+            median pchembl_value: 6.46
+            driver: intake_rdkit.smiles.SmilesSource
+            
+    CHEMBL2361-1:
+        description: "Target CHEMBL2361: Thymidylate kinase"
+        args:
+            filename: 'Ki_MaximalCuration_RefPruned/Datasets/target_CHEMBL2361-1_Ki_MaximalCuration_RefPruned.csv.gz'
+            smilesColumn: canonical_smiles
+        metadata:
+            url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2361/
+            source: ChEMBL_32
+            target_organism: Mycobacterium tuberculosis
+            assays_included: CHEMBL3720967,CHEMBL954907
+            num_points: 32
+            activity_type: Ki_MaximalCuration_RefPruned
+            min pchembl_value: 4.07
+            max pchembl_value: 5.19
+            median pchembl_value: 4.41
+            driver: intake_rdkit.smiles.SmilesSource
+            
+    CHEMBL205-1:
+        description: "Target CHEMBL205: Carbonic anhydrase II"
+        args:
+            filename: 'Ki_MaximalCuration_RefPruned/Datasets/target_CHEMBL205-1_Ki_MaximalCuration_RefPruned.csv.gz'
+            smilesColumn: canonical_smiles
+        metadata:
+            url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL205/
+            source: ChEMBL_32
+            target_organism: Homo sapiens
+            assays_included: CHEMBL3269990,CHEMBL1059274
+            num_points: 22
+            activity_type: Ki_MaximalCuration_RefPruned
+            min pchembl_value: 4.65
+            max pchembl_value: 8.15
+            median pchembl_value: 6.76
+            driver: intake_rdkit.smiles.SmilesSource
+            
+    CHEMBL3155-1:
+        description: "Target CHEMBL3155: Serotonin 7 (5-HT7) receptor"
+        args:
+            filename: 'Ki_MaximalCuration_RefPruned/Datasets/target_CHEMBL3155-1_Ki_MaximalCuration_RefPruned.csv.gz'
+            smilesColumn: canonical_smiles
+        metadata:
+            url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL3155/
+            source: ChEMBL_32
+            target_organism: Homo sapiens
+            assays_included: CHEMBL1837760,CHEMBL927089
+            num_points: 18
+            activity_type: Ki_MaximalCuration_RefPruned
+            min pchembl_value: 7.28
+            max pchembl_value: 9.42
+            median pchembl_value: 8.22
+            driver: intake_rdkit.smiles.SmilesSource
+            
+    CHEMBL210-1:
+        description: "Target CHEMBL210: Beta-2 adrenergic receptor"
+        args:
+            filename: 'Ki_MaximalCuration_RefPruned/Datasets/target_CHEMBL210-1_Ki_MaximalCuration_RefPruned.csv.gz'
+            smilesColumn: canonical_smiles
+        metadata:
+            url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL210/
+            source: ChEMBL_32
+            target_organism: Homo sapiens
+            assays_included: CHEMBL3100637,CHEMBL905129
+            num_points: 17
+            activity_type: Ki_MaximalCuration_RefPruned
+            min pchembl_value: 4.56
+            max pchembl_value: 8.40
+            median pchembl_value: 5.74
+            driver: intake_rdkit.smiles.SmilesSource
+            
+    CHEMBL2189117-1:
+        description: "Target CHEMBL2189117: Polycomb protein EED"
+        args:
+            filename: 'Ki_MaximalCuration_RefPruned/Datasets/target_CHEMBL2189117-1_Ki_MaximalCuration_RefPruned.csv.gz'
+            smilesColumn: canonical_smiles
+        metadata:
+            url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2189117/
+            source: ChEMBL_32
+            target_organism: Homo sapiens
+            assays_included: CHEMBL4007108,CHEMBL4020039
+            num_points: 12
+            activity_type: Ki_MaximalCuration_RefPruned
+            min pchembl_value: 6.96
+            max pchembl_value: 9.54
+            median pchembl_value: 8.20
+            driver: intake_rdkit.smiles.SmilesSource
+            
+    CHEMBL204-1:
+        description: "Target CHEMBL204: Thrombin"
+        args:
+            filename: 'Ki_MaximalCuration_RefPruned/Datasets/target_CHEMBL204-1_Ki_MaximalCuration_RefPruned.csv.gz'
+            smilesColumn: canonical_smiles
+        metadata:
+            url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL204/
+            source: ChEMBL_32
+            target_organism: Homo sapiens
+            assays_included: CHEMBL1067528,CHEMBL3424914
+            num_points: 12
+            activity_type: Ki_MaximalCuration_RefPruned
+            min pchembl_value: 4.03
+            max pchembl_value: 7.40
+            median pchembl_value: 5.24
+            driver: intake_rdkit.smiles.SmilesSource
+            
+    CHEMBL299-1:
+        description: "Target CHEMBL299: Protein kinase C alpha"
+        args:
+            filename: 'Ki_MaximalCuration_RefPruned/Datasets/target_CHEMBL299-1_Ki_MaximalCuration_RefPruned.csv.gz'
+            smilesColumn: canonical_smiles
+        metadata:
+            url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL299/
+            source: ChEMBL_32
+            target_organism: Homo sapiens
+            assays_included: CHEMBL4137134,CHEMBL977316
+            num_points: 12
+            activity_type: Ki_MaximalCuration_RefPruned
+            min pchembl_value: 5.83
+            max pchembl_value: 7.83
+            median pchembl_value: 6.70
+            driver: intake_rdkit.smiles.SmilesSource
+            

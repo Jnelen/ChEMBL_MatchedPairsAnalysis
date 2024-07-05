@@ -1,15 +1,15 @@
-name: py311_overlappingassays
+name: chembl_matchedpairs
 channels:
   - conda-forge
 dependencies:
-  - python=3.11
-  - rdkit
+  - python=3.12
+  - rdkit=2024.03.1
   - jupyter
   - scipy
+  - tqdm
   - scikit-learn
   - psycopg2
   - ipython-sql
-  - matplotlib
+  - matplotlib=3.8.4
   - sqlalchemy=1.4
-  - pandas
-  
+  - pandas=2.2.2

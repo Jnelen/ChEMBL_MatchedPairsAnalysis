@@ -16,7 +16,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL253/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL1837632,CHEMBL931641
+            assays_included: CHEMBL931641,CHEMBL1837632
             num_points: 34
             activity_type: Ki_MaximalCuration_RefPruned
             min pchembl_value: 6.62
@@ -33,7 +33,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL5282/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL910617,CHEMBL839581
+            assays_included: CHEMBL839581,CHEMBL910617
             num_points: 32
             activity_type: Ki_MaximalCuration_RefPruned
             min pchembl_value: 4.17
@@ -50,7 +50,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2361/
             source: ChEMBL_32
             target_organism: Mycobacterium tuberculosis
-            assays_included: CHEMBL3720967,CHEMBL954907
+            assays_included: CHEMBL954907,CHEMBL3720967
             num_points: 32
             activity_type: Ki_MaximalCuration_RefPruned
             min pchembl_value: 4.07
@@ -67,7 +67,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL205/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL3269990,CHEMBL1059274
+            assays_included: CHEMBL1059274,CHEMBL3269990
             num_points: 22
             activity_type: Ki_MaximalCuration_RefPruned
             min pchembl_value: 4.65
@@ -84,7 +84,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL3155/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL1837760,CHEMBL927089
+            assays_included: CHEMBL927089,CHEMBL1837760
             num_points: 18
             activity_type: Ki_MaximalCuration_RefPruned
             min pchembl_value: 7.28
@@ -135,7 +135,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL204/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL1067528,CHEMBL3424914
+            assays_included: CHEMBL3424914,CHEMBL1067528
             num_points: 12
             activity_type: Ki_MaximalCuration_RefPruned
             min pchembl_value: 4.03
@@ -152,7 +152,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL299/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL4137134,CHEMBL977316
+            assays_included: CHEMBL977316,CHEMBL4137134
             num_points: 12
             activity_type: Ki_MaximalCuration_RefPruned
             min pchembl_value: 5.83

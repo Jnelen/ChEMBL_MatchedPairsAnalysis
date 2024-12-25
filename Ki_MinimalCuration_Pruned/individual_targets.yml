@@ -16,7 +16,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL339/
             source: ChEMBL_32
             target_organism: Rattus norvegicus
-            assays_included: CHEMBL673595,CHEMBL673594,CHEMBL670975,CHEMBL676134,CHEMBL675973,CHEMBL675803
+            assays_included: CHEMBL673594,CHEMBL675803,CHEMBL673595,CHEMBL675973,CHEMBL676134,CHEMBL670975
             num_points: 192
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 4.68
@@ -33,7 +33,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2034/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL833648,CHEMBL2216234,CHEMBL950163,CHEMBL950162,CHEMBL4051152,CHEMBL3739124,CHEMBL2216233,CHEMBL875218,CHEMBL4051151,CHEMBL3736640
+            assays_included: CHEMBL950162,CHEMBL950163,CHEMBL4051152,CHEMBL4051151,CHEMBL875218,CHEMBL3739124,CHEMBL2216233,CHEMBL3736640,CHEMBL833648,CHEMBL2216234
             num_points: 292
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 6.36
@@ -50,7 +50,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL1163125/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL4185410,CHEMBL4346333,CHEMBL3889000,CHEMBL3089622,CHEMBL4363361,CHEMBL4432554,CHEMBL4432556,CHEMBL4432555,CHEMBL4346334,CHEMBL4185405,CHEMBL3889004,CHEMBL3889003,CHEMBL3089621,CHEMBL3889001,CHEMBL4363360
+            assays_included: CHEMBL4363361,CHEMBL4346333,CHEMBL4363360,CHEMBL4346334,CHEMBL3889003,CHEMBL4185410,CHEMBL3889004,CHEMBL3889000,CHEMBL4432554,CHEMBL3089621,CHEMBL4432556,CHEMBL3889001,CHEMBL3089622,CHEMBL4432555,CHEMBL4185405
             num_points: 500
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 4.39
@@ -67,7 +67,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL1939/
             source: ChEMBL_32
             target_organism: Plasmodium falciparum K1
-            assays_included: CHEMBL821378,CHEMBL668410,CHEMBL668412,CHEMBL667200,CHEMBL668413,CHEMBL828776,CHEMBL821379,CHEMBL749723,CHEMBL880697,CHEMBL668411,CHEMBL821377,CHEMBL668409,CHEMBL663728,CHEMBL668414,CHEMBL663727
+            assays_included: CHEMBL668413,CHEMBL828776,CHEMBL668411,CHEMBL668410,CHEMBL663727,CHEMBL668414,CHEMBL880697,CHEMBL821379,CHEMBL663728,CHEMBL667200,CHEMBL821377,CHEMBL668409,CHEMBL749723,CHEMBL821378,CHEMBL668412
             num_points: 588
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 4.08
@@ -84,7 +84,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL5102/
             source: ChEMBL_32
             target_organism: Rattus norvegicus
-            assays_included: CHEMBL1942322,CHEMBL926238,CHEMBL1942324,CHEMBL876782,CHEMBL828080,CHEMBL926241
+            assays_included: CHEMBL926238,CHEMBL876782,CHEMBL1942324,CHEMBL926241,CHEMBL1942322,CHEMBL828080
             num_points: 190
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 4.87
@@ -101,7 +101,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL1075104/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL5040108,CHEMBL3804654,CHEMBL3804653,CHEMBL5040110
+            assays_included: CHEMBL3804653,CHEMBL3804654,CHEMBL5040110,CHEMBL5040108
             num_points: 132
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 5.15
@@ -135,7 +135,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL217/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL4323479,CHEMBL3295081,CHEMBL913685,CHEMBL4010153,CHEMBL3855280,CHEMBL3369122,CHEMBL3614290,CHEMBL3369121,CHEMBL1930837,CHEMBL866799,CHEMBL866800,CHEMBL4323478,CHEMBL1261459,CHEMBL3855278,CHEMBL3295080,CHEMBL673073,CHEMBL1061433,CHEMBL672579,CHEMBL1930838,CHEMBL1061432,CHEMBL4010156,CHEMBL1261460
+            assays_included: CHEMBL3369122,CHEMBL866800,CHEMBL3855280,CHEMBL4010156,CHEMBL4323479,CHEMBL913685,CHEMBL1930838,CHEMBL1061433,CHEMBL3295081,CHEMBL3369121,CHEMBL4323478,CHEMBL1261459,CHEMBL1261460,CHEMBL4010153,CHEMBL1061432,CHEMBL1930837,CHEMBL673073,CHEMBL672579,CHEMBL3614290,CHEMBL866799,CHEMBL3855278,CHEMBL3295080
             num_points: 558
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 4.17
@@ -152,7 +152,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL4828/
             source: ChEMBL_32
             target_organism: Rattus norvegicus
-            assays_included: CHEMBL1047523,CHEMBL3810653,CHEMBL3137056,CHEMBL3137057,CHEMBL3810652,CHEMBL1047524
+            assays_included: CHEMBL3137057,CHEMBL3137056,CHEMBL1047524,CHEMBL3810652,CHEMBL3810653,CHEMBL1047523
             num_points: 164
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 4.04
@@ -203,7 +203,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL287/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL827427,CHEMBL829825,CHEMBL1909110,CHEMBL839610,CHEMBL804959,CHEMBL802063
+            assays_included: CHEMBL827427,CHEMBL829825,CHEMBL802063,CHEMBL804959,CHEMBL1909110,CHEMBL839610
             num_points: 88
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 5.89
@@ -220,7 +220,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL4198/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL1803422,CHEMBL2406571,CHEMBL1803423,CHEMBL2406570
+            assays_included: CHEMBL1803422,CHEMBL2406570,CHEMBL2406571,CHEMBL1803423
             num_points: 102
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 4.18
@@ -254,7 +254,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL4361/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL4385917,CHEMBL4385918,CHEMBL4023195,CHEMBL4023196
+            assays_included: CHEMBL4385918,CHEMBL4385917,CHEMBL4023195,CHEMBL4023196
             num_points: 90
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 6.71
@@ -271,7 +271,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL1836/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL934070,CHEMBL1671178,CHEMBL1645712,CHEMBL934071,CHEMBL1671177,CHEMBL1645711,CHEMBL1645710
+            assays_included: CHEMBL934071,CHEMBL1645712,CHEMBL1645711,CHEMBL934070,CHEMBL1645710,CHEMBL1671178,CHEMBL1671177
             num_points: 178
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 5.64
@@ -305,7 +305,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL251/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL642332,CHEMBL884787,CHEMBL884791,CHEMBL4193732,CHEMBL639492,CHEMBL4193729,CHEMBL642117
+            assays_included: CHEMBL642332,CHEMBL642117,CHEMBL639492,CHEMBL884791,CHEMBL884787,CHEMBL4193729,CHEMBL4193732
             num_points: 134
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 5.00
@@ -322,7 +322,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL288/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL840090,CHEMBL839598,CHEMBL839599
+            assays_included: CHEMBL839598,CHEMBL839599,CHEMBL840090
             num_points: 78
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 5.07
@@ -339,7 +339,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL4124/
             source: ChEMBL_32
             target_organism: Rattus norvegicus
-            assays_included: CHEMBL697326,CHEMBL691842,CHEMBL698412,CHEMBL697536,CHEMBL692770,CHEMBL690973,CHEMBL698408,CHEMBL693566
+            assays_included: CHEMBL698412,CHEMBL697536,CHEMBL690973,CHEMBL693566,CHEMBL698408,CHEMBL691842,CHEMBL692770,CHEMBL697326
             num_points: 154
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 5.79
@@ -373,7 +373,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL234/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL3855277,CHEMBL961810,CHEMBL3705176,CHEMBL3855275
+            assays_included: CHEMBL3855275,CHEMBL3855277,CHEMBL3705176,CHEMBL961810
             num_points: 68
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 7.02
@@ -390,7 +390,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL1862/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL923928,CHEMBL2399912,CHEMBL2399913,CHEMBL923929
+            assays_included: CHEMBL923928,CHEMBL2399912,CHEMBL923929,CHEMBL2399913
             num_points: 100
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 4.43
@@ -407,7 +407,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL1782/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL924794,CHEMBL924793,CHEMBL681891
+            assays_included: CHEMBL924794,CHEMBL681891,CHEMBL924793
             num_points: 63
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 4.01
@@ -424,7 +424,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL4774/
             source: ChEMBL_32
             target_organism: Mus musculus
-            assays_included: CHEMBL4831247,CHEMBL4831248
+            assays_included: CHEMBL4831248,CHEMBL4831247
             num_points: 48
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 5.50
@@ -441,7 +441,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL247/
             source: ChEMBL_32
             target_organism: Human immunodeficiency virus 1
-            assays_included: CHEMBL900568,CHEMBL1805967,CHEMBL1805966,CHEMBL900566,CHEMBL900569
+            assays_included: CHEMBL900568,CHEMBL900569,CHEMBL1805967,CHEMBL1805966,CHEMBL900566
             num_points: 115
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 4.75
@@ -492,7 +492,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL238/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL670787,CHEMBL670051
+            assays_included: CHEMBL670051,CHEMBL670787
             num_points: 48
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 5.28
@@ -509,7 +509,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL2001/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL1050572,CHEMBL1050573
+            assays_included: CHEMBL1050573,CHEMBL1050572
             num_points: 46
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 5.74
@@ -526,7 +526,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL4429/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL1285944,CHEMBL1931471,CHEMBL811267
+            assays_included: CHEMBL811267,CHEMBL1931471,CHEMBL1285944
             num_points: 68
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 5.30
@@ -543,7 +543,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL4794/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL3772450,CHEMBL3772448
+            assays_included: CHEMBL3772448,CHEMBL3772450
             num_points: 46
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 6.16
@@ -560,7 +560,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL4625/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL859053,CHEMBL859054
+            assays_included: CHEMBL859054,CHEMBL859053
             num_points: 46
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 5.22
@@ -577,7 +577,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL3571/
             source: ChEMBL_32
             target_organism: Rattus norvegicus
-            assays_included: CHEMBL657061,CHEMBL659689,CHEMBL658897,CHEMBL659688,CHEMBL659697,CHEMBL658893,CHEMBL659698,CHEMBL658892
+            assays_included: CHEMBL658892,CHEMBL658893,CHEMBL657061,CHEMBL659697,CHEMBL659689,CHEMBL659698,CHEMBL658897,CHEMBL659688
             num_points: 118
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 4.36
@@ -594,7 +594,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL3952/
             source: ChEMBL_32
             target_organism: Cavia porcellus
-            assays_included: CHEMBL3379229,CHEMBL823999,CHEMBL3379231,CHEMBL874095
+            assays_included: CHEMBL3379231,CHEMBL874095,CHEMBL823999,CHEMBL3379229
             num_points: 90
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 6.06
@@ -628,7 +628,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL1790/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL818586,CHEMBL818587
+            assays_included: CHEMBL818587,CHEMBL818586
             num_points: 44
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 6.52
@@ -645,7 +645,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL276/
             source: ChEMBL_32
             target_organism: Rattus norvegicus
-            assays_included: CHEMBL872655,CHEMBL748259
+            assays_included: CHEMBL748259,CHEMBL872655
             num_points: 44
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 5.11
@@ -662,7 +662,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL3553/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL4402446,CHEMBL4402444,CHEMBL4402445
+            assays_included: CHEMBL4402445,CHEMBL4402444,CHEMBL4402446
             num_points: 64
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 6.09
@@ -679,7 +679,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL3106/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL901717,CHEMBL901716
+            assays_included: CHEMBL901716,CHEMBL901717
             num_points: 42
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 5.24
@@ -696,7 +696,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL299/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL3396875,CHEMBL3394956,CHEMBL4137134,CHEMBL977316
+            assays_included: CHEMBL3394956,CHEMBL3396875,CHEMBL4137134,CHEMBL977316
             num_points: 54
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 5.83
@@ -713,7 +713,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL3582/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL3394957,CHEMBL3396876
+            assays_included: CHEMBL3396876,CHEMBL3394957
             num_points: 42
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 7.20
@@ -730,7 +730,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL264/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL838520,CHEMBL886726,CHEMBL693107,CHEMBL886725,CHEMBL692573,CHEMBL692580,CHEMBL1638845,CHEMBL828754
+            assays_included: CHEMBL692573,CHEMBL693107,CHEMBL886725,CHEMBL886726,CHEMBL1638845,CHEMBL828754,CHEMBL838520,CHEMBL692580
             num_points: 100
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 5.70
@@ -747,7 +747,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL228/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL799116,CHEMBL899541,CHEMBL899542,CHEMBL799117
+            assays_included: CHEMBL899541,CHEMBL799117,CHEMBL799116,CHEMBL899542
             num_points: 82
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 5.43
@@ -781,7 +781,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL218/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL2065576,CHEMBL2065579,CHEMBL1275184,CHEMBL1275185
+            assays_included: CHEMBL1275184,CHEMBL2065579,CHEMBL2065576,CHEMBL1275185
             num_points: 82
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 5.72
@@ -815,7 +815,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL4372/
             source: ChEMBL_32
             target_organism: Bacillus anthracis
-            assays_included: CHEMBL871510,CHEMBL871511
+            assays_included: CHEMBL871511,CHEMBL871510
             num_points: 42
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 4.68
@@ -832,7 +832,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL269/
             source: ChEMBL_32
             target_organism: Rattus norvegicus
-            assays_included: CHEMBL751113,CHEMBL751673
+            assays_included: CHEMBL751673,CHEMBL751113
             num_points: 40
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 6.30
@@ -849,7 +849,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL4078/
             source: ChEMBL_32
             target_organism: Electrophorus electricus
-            assays_included: CHEMBL4361981,CHEMBL4361982
+            assays_included: CHEMBL4361982,CHEMBL4361981
             num_points: 40
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 4.41
@@ -883,7 +883,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL4822/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL3630426,CHEMBL3630425,CHEMBL3801550,CHEMBL3705045
+            assays_included: CHEMBL3630426,CHEMBL3705045,CHEMBL3630425,CHEMBL3801550
             num_points: 54
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 4.85
@@ -900,7 +900,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL202/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL664357,CHEMBL666807,CHEMBL665356
+            assays_included: CHEMBL666807,CHEMBL665356,CHEMBL664357
             num_points: 60
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 5.22
@@ -917,7 +917,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL4320/
             source: ChEMBL_32
             target_organism: Bacillus subtilis (strain 168)
-            assays_included: CHEMBL858266,CHEMBL663871,CHEMBL872486
+            assays_included: CHEMBL663871,CHEMBL858266,CHEMBL872486
             num_points: 55
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 4.01
@@ -934,7 +934,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL255/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL1292001,CHEMBL1292000
+            assays_included: CHEMBL1292000,CHEMBL1292001
             num_points: 38
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 4.95
@@ -951,7 +951,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL244/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL1768188,CHEMBL662838
+            assays_included: CHEMBL662838,CHEMBL1768188
             num_points: 36
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 5.30
@@ -968,7 +968,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL267/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL864338,CHEMBL978937
+            assays_included: CHEMBL978937,CHEMBL864338
             num_points: 36
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 5.00
@@ -1002,7 +1002,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL279/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL3881022,CHEMBL3881024
+            assays_included: CHEMBL3881024,CHEMBL3881022
             num_points: 34
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 6.37
@@ -1070,7 +1070,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL273/
             source: ChEMBL_32
             target_organism: Rattus norvegicus
-            assays_included: CHEMBL616592,CHEMBL616591,CHEMBL616594
+            assays_included: CHEMBL616591,CHEMBL616594,CHEMBL616592
             num_points: 30
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 6.74
@@ -1087,7 +1087,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL4015/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL655688,CHEMBL946042
+            assays_included: CHEMBL946042,CHEMBL655688
             num_points: 22
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 4.89
@@ -1104,7 +1104,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL3759/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL700770,CHEMBL2050319,CHEMBL860282,CHEMBL958182,CHEMBL1072277
+            assays_included: CHEMBL1072277,CHEMBL700770,CHEMBL958182,CHEMBL2050319,CHEMBL860282
             num_points: 49
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 5.52
@@ -1121,7 +1121,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL318/
             source: ChEMBL_32
             target_organism: Rattus norvegicus
-            assays_included: CHEMBL643484,CHEMBL640367,CHEMBL646021,CHEMBL637704,CHEMBL639642,CHEMBL640787,CHEMBL638690
+            assays_included: CHEMBL643484,CHEMBL640367,CHEMBL639642,CHEMBL640787,CHEMBL637704,CHEMBL638690,CHEMBL646021
             num_points: 70
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 4.26
@@ -1138,7 +1138,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL3155/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL1837760,CHEMBL927089
+            assays_included: CHEMBL927089,CHEMBL1837760
             num_points: 18
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 7.28
@@ -1172,7 +1172,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL1741195/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL3887804,CHEMBL3705370
+            assays_included: CHEMBL3705370,CHEMBL3887804
             num_points: 18
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 8.33
@@ -1206,7 +1206,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL210/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL905129,CHEMBL3887980,CHEMBL3100637
+            assays_included: CHEMBL905129,CHEMBL3100637,CHEMBL3887980
             num_points: 23
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 4.56
@@ -1223,7 +1223,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL335/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL1026933,CHEMBL3062587,CHEMBL770979
+            assays_included: CHEMBL770979,CHEMBL1026933,CHEMBL3062587
             num_points: 29
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 4.10
@@ -1257,7 +1257,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL265/
             source: ChEMBL_32
             target_organism: Rattus norvegicus
-            assays_included: CHEMBL670438,CHEMBL857792
+            assays_included: CHEMBL857792,CHEMBL670438
             num_points: 18
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 6.45
@@ -1274,7 +1274,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL3371/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL840097,CHEMBL3371192,CHEMBL620800
+            assays_included: CHEMBL840097,CHEMBL620800,CHEMBL3371192
             num_points: 26
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 7.26
@@ -1325,7 +1325,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL3638/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL977319,CHEMBL4137136
+            assays_included: CHEMBL4137136,CHEMBL977319
             num_points: 12
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 6.57
@@ -1342,7 +1342,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL204/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL980972,CHEMBL1953227,CHEMBL1067528,CHEMBL3424914
+            assays_included: CHEMBL980972,CHEMBL1067528,CHEMBL1953227,CHEMBL3424914
             num_points: 24
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 4.03
@@ -1359,7 +1359,7 @@ sources:
             url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL3018/
             source: ChEMBL_32
             target_organism: Homo sapiens
-            assays_included: CHEMBL954312,CHEMBL3705096,CHEMBL1010203
+            assays_included: CHEMBL1010203,CHEMBL3705096,CHEMBL954312
             num_points: 24
             activity_type: Ki_MinimalCuration_Pruned
             min pchembl_value: 6.92

@@ -1,0 +1,3 @@
+IC50_MediumCuration_NoMaxMatch Statistics:
+MAE=0.30, Fraction > 0.3: 0.50, fraction > 1.0: 0.18
+70 assay pairs. 5963 points, 106 unique assay IDs.

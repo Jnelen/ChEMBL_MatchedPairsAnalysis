@@ -1,0 +1,3 @@
+Ki_MediumCuration_NoHighConfidence_Pruned Statistics:
+MAE=0.36, Fraction > 0.3: 0.54, fraction > 1.0: 0.27
+16 assay pairs. 758 points, 30 unique assay IDs.

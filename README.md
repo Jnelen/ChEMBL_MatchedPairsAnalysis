@@ -1,5 +1,5 @@
 # Matched Pairs Prove Robust Against Inter-Assay Noise
-
+[![J. Cheminform.](https://img.shields.io/badge/J.%20Cheminform.-10.1186%2Fs13321--025--00956--y-blue)](https://doi.org/10.1186/s13321-025-00956-y)
 ## Abstract
 Machine learning models for chemistry require large datasets, often compiled by combining data from multiple assays. However, combining data without careful curation can introduce significant noise. While absolute values from different assays are rarely comparable, trends or differences between compounds are often assumed to be consistent. This study evaluates that assumption by analyzing potency differences between matched compound pairs across assays and assessing the impact of assay metadata curation on error reduction. We find that potency differences between matched pairs exhibit less variability than individual compound measurements, suggesting systematic assay differences may partially cancel out in paired data. Metadata curation further improves inter-assay agreement, albeit at the cost of dataset size. For minimally curated compound pairs, agreement within 0.3 pChEMBL units was found to be 44-46% for K<sub>i</sub> and IC<sub>50</sub> values respectively, which improved to 66-79% after curation. Similarly, the percentage of pairs with differences exceeding 1 pChEMBL unit dropped from 12-15% to 6-8% with extensive curation. These results establish a benchmark for expected noise in matched molecular pair data from the ChEMBL database, offering practical metrics for data quality assessment.  
 
@@ -32,4 +32,32 @@ This step is optional because the relevant data is cached and provided with this
 If you have a `PostgreSQL` database setup for ChEMBL32, update the `connection_string` on line 8 of Cell 1.1 with your database link.
 
 If you do not have the database setup, skip running Cell 1.1 and any cells using the `gather_data` function. All other cells should work as intended.
+
+## Citation
+If you use our work, please cite it as follows:  
+```bibtex
+@article{nelen_matched_2025,
+  author = {Nelen, Jochem and Pérez-Sánchez, Horacio and De Winter, Hans and Van Rompaey, Dries},
+  title = {Matched pairs demonstrate robustness against inter-assay variability},
+  journal = {Journal of Cheminformatics},
+  year = {2025},
+  volume = {17},
+  pages = {8},
+  doi = {10.1186/s13321-025-00956-y}
+}
+```
+
+This work builds upon earlier research by Greg Landrum, which can be cited as:  
+```bibtex
+@article{landrum_combining_2024,
+  author = {Landrum, Gregory A. and Riniker, Sereina},
+  title = {Combining IC50 or Ki Values from Different Sources Is a Source of Significant Noise},
+  journal = {Journal of Chemical Information and Modeling},
+  year = {2024},
+  volume = {64},
+  pages = {1560--1567},
+  doi = {10.1021/acs.jcim.4c00049}
+}
+```
+
 
